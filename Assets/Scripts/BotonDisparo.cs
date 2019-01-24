@@ -7,8 +7,8 @@ public class BotonDisparo : MonoBehaviour
     public Rigidbody2D personaje;
 
     public Transform posicionBala;
+    public Rigidbody2D[] balas;
 
-    public Rigidbody2D bala;
 
     public int fuerzaDisparo = 10;
 
@@ -30,9 +30,12 @@ public class BotonDisparo : MonoBehaviour
     }
 
     void Disparo(){
-        Rigidbody2D balaInstanciada = Instantiate(bala, posicionBala.position, posicionBala.rotation);
-        balaInstanciada.AddForce(Vector2.up * fuerzaDisparo);
+        //Rigidbody2D balaInstanciada = Instantiate (bala, posicionBala.position, posicionBala.rotation);
+        //balaInstanciada.AddForce(Vector2.up * fuerzaDisparo);
 
+        int numeroBala = Random.Range(0, balas.Length);
+        Rigidbody2D balaInstanciada = Instantiate(balas[numeroBala], posicionBala.position, posicionBala.rotation);
+        balaInstanciada.AddForce(Vector2.up * fuerzaDisparo);
 
     }
 }

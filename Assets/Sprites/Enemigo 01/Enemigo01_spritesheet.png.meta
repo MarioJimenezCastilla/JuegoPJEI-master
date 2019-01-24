@@ -1,7 +1,10 @@
 fileFormatVersion: 2
-guid: d6fbbfc000fb8624f898dd03adb87b20
+guid: ada0026a29d17a24f928c469cda5a5e3
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Enemigo01_spritesheet_0
+    21300002: Enemigo01_spritesheet_1
+    21300004: Enemigo01_spritesheet_2
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -93,11 +96,71 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enemigo01_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 785
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bbbba164defd64da6a78a60f7d7af2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo01_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 46
+        width: 744
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67697f64b8480349937599c86133e4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo01_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 0
+        width: 586
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e8c1ed962202745bfeb041bdf98aca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f35f474d1215fd048b1a40b30bb96038
+    spriteID: f9da1208ab6f3c749ba3e88c37fa0771
     vertices: []
     indices: 
     edges: []
