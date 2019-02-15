@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3922166429391610851}
   - component: {fileID: 635819879768437566}
   - component: {fileID: 3021081452381021433}
+  - component: {fileID: 4665710774707033266}
   m_Layer: 0
   m_Name: Balas_SpriteSheet_2
   m_TagString: Bala
@@ -128,3 +129,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4665710774707033266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582100968854684892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3bd7685cf6972c47928139533e7c1ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
