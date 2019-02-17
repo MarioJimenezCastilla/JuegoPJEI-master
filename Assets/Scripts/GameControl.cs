@@ -14,13 +14,22 @@ public class GameControl : MonoBehaviour {
     
     // Update is called once per frame
     void Update () {
-        if (Input.GetKeyDown (KeyCode.Escape)) {
+       
+    }
+
+    private void FixedUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
             pausa = !pausa;
         }
 
-        if (pausa) {
+        if (pausa)
+        {
             Time.timeScale = 0f;
-        } else {
+        }
+        else
+        {
             Time.timeScale = 1f;
         }
     }
